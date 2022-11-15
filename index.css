@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,700&display=swap');
+
+/*configurar toda la pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+/*configuraciones generales*/
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body  html{
+    overflow-x: hidden;
+}
+
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+/*final de configuraciones generales*/
+
+/*header  y tituloss*/
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://wallpapercave.com/wp/6bbKdn1.jpg) ;
+    background-position: bottom;
+    background-size: cover;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+
+
+.titulo-content h1 {
+    margin-top: 500px;
+    font-size: 8vmin;
+}
+
+.titulo-content p {
+    font-size: 4vmin;
+}
+
+
+.line{
+    width: 150px;
+    height: 4px;
+    background: #03c2fc;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.ctn{
+    padding: 10px 5px;
+    background: #01d7fd;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+}
+
+h4{
+    font-size: 3vmin;
+    color: #484872;
+    margin: 20px auto;
+}
+
+
+.ctn3{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
+    margin-left: 450px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+/*final de header y titulos*/
+
+/*inicio de navbar*/
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 20px;
+}
+
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+/*final del navbar*/
+
+
+.footer{
+    width: 100%;
+    height: 150px;
+    padding: 20px 80px;
+    margin: 0;
+    background-image: url(../imagenes/pie2.jpg);
+    text-align: center;
+}
+
+li {
+    background-color: #F6E3CA;
+    float: left;
+    margin-right: 10px;
+    padding: 0 4px;
+  }
+
+.pie{
+    color: rgb(247, 10, 10);
+    background-color: white;
+    border-radius: auto;
+    text-align: center;
+}
